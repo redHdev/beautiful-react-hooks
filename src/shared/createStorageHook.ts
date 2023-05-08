@@ -8,7 +8,7 @@ import isDevelopment from './isDevelopment'
  * An utility to quickly create hooks to access both Session Storage and Local Storage
  */
 const createStorageHook = (type: 'session' | 'local') => {
-  const storageName = `${type}Storage`
+  const storageName = `${type}Storage`   
 
   if (isClient && !isAPISupported(storageName)) {
     // eslint-disable-next-line no-console
