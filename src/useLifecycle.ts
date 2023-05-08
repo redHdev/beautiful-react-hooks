@@ -1,6 +1,6 @@
 import useDidMount from './useDidMount'
 import useWillUnmount from './useWillUnmount'
-import { Noop } from './shared/types'
+import { Noop } from './shared/types'   
 
 /**
  * Returns an object wrapping lifecycle hooks such as `useDidMount` or `useWillUnmount`.
