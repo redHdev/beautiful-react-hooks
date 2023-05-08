@@ -6,7 +6,7 @@ import { Direction, getDirection, getHorizontalDirection, getPointerCoordinates,
 export type UseSwipeOptions = {
   direction?: 'both' | 'horizontal' | 'vertical',
   threshold?: number,
-  preventDefault?: boolean,
+  preventDefault?: boolean,   
 }
 
 const defaultOptions: UseSwipeOptions = {
