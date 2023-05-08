@@ -3,7 +3,7 @@ import useMouseEvents from './useMouseEvents'
 
 export type MouseStateSummary = {
   clientX: number,
-  clientY: number,
+  clientY: number,   
   screenX: number,
   screenY: number
 }
