@@ -6,7 +6,7 @@ import { CallbackSetter } from './shared/types'
 
 const assignDragEventOnMount = <T extends HTMLElement>
   (targetRef: RefObject<T>, handlerRef: MutableRefObject<CallbackSetter<DragEvent>>, eventName: string) => {
-  useEffect(() => {
+  useEffect(() => {  
     const cb = (dragEvent: DragEvent) => {
       if (handlerRef && handlerRef.current) {
         handlerRef.current(dragEvent)
