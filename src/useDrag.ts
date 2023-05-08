@@ -8,7 +8,7 @@ export type UseDragOptions = {
   transfer?: string | number | Record<string, any>,
   transferFormat?: string,
 }
-
+  
 const defaultOptions: UseDragOptions = {
   dragImageXOffset: 0,
   dragImageYOffset: 0,
