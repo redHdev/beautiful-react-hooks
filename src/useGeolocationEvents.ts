@@ -4,7 +4,7 @@ import createCbSetterErrorProxy from './shared/createCbSetterErrorProxy'
 import geolocationStandardOptions from './shared/geolocationStandardOptions'
 import { CallbackSetter } from './shared/types'
 
-export type GeolocationEventsMap = {
+export type GeolocationEventsMap = {   
   readonly isSupported: boolean,   
   readonly onChange: CallbackSetter<PositionCallback>
   readonly onError: CallbackSetter<PositionErrorCallback>
