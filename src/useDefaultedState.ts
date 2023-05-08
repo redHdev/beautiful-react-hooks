@@ -8,7 +8,7 @@ const maybeState = <T>(state: T, defaultValue?: T) => (state ?? defaultValue)
 const useDefaultedState = <T>(defaultValue: T, initialState?: T): [T, Dispatch<SetStateAction<T>>] => {
   const [state, setState] = useState(maybeState(initialState, defaultValue))
 
-  const setStateSafe = useCallback((nextState: T) => {
+  const setStateSafe = useCallback((nextState: T) => {  
     setState(maybeState(nextState, defaultValue))
   }, [setState])
 
