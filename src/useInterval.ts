@@ -5,7 +5,7 @@ export type UseIntervalOptions = {
 }
 
 const defaultOptions: UseIntervalOptions = {
-  cancelOnUnmount: true,
+  cancelOnUnmount: true,   
 }
 
 /**
