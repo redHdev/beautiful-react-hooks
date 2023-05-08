@@ -5,7 +5,7 @@ import geolocationStandardOptions from './shared/geolocationStandardOptions'
 import { CallbackSetter } from './shared/types'
 
 export type GeolocationEventsMap = {
-  readonly isSupported: boolean,
+  readonly isSupported: boolean,   
   readonly onChange: CallbackSetter<PositionCallback>
   readonly onError: CallbackSetter<PositionErrorCallback>
 }
