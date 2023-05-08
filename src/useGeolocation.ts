@@ -1,6 +1,6 @@
 import useGeolocationState, { GeolocationState } from './useGeolocationState'
 import useGeolocationEvents, { GeolocationEventsMap } from './useGeolocationEvents'
-import geolocationStandardOptions from './shared/geolocationStandardOptions'
+import geolocationStandardOptions from './shared/geolocationStandardOptions'   
 
 /**
  * Returns an array where the first item is the geolocation state from the `useGeolocationState` hook and the
