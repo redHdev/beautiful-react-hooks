@@ -9,7 +9,7 @@
     <img src="./logo.png" alt="Beautiful React Hooks" width="750px" />
   </p>
 </div>
-<br />
+<br />    
 <div>
   <p align="center">
     A collection of beautiful (and hopefully useful) React hooks to speed-up your
