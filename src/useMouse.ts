@@ -9,7 +9,7 @@ import useMouseState, { MouseStateSummary } from './useMouseState'
  */
 const useMouse = <T extends HTMLElement>(targetRef: RefObject<T> = null): [MouseStateSummary, MouseEventsMap] => {
   const state = useMouseState(targetRef)
-  const events = useMouseEvents(targetRef)
+  const events = useMouseEvents(targetRef)  
 
   return [state, events]
 }
