@@ -3,7 +3,7 @@ import { useCallback, useEffect, useRef, useState } from 'react'
 export type UseIntervalOptions = {
   cancelOnUnmount?: boolean,
 }
-
+  
 const defaultOptions: UseIntervalOptions = {
   cancelOnUnmount: true,   
 }
