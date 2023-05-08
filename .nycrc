@@ -3,7 +3,7 @@
   "reporter": ["lcov"],
   "check-coverage": true,
   "extension": [ ".js" ],
-  "include": [ "dist/*.js" ],
+  "include": [ "dist/*.js" ], 
   "exclude": [ "dist/index.js", "dist/_virtual/**/*.js" ],
   "branches": 60,
   "lines": 70,
