@@ -11,7 +11,7 @@ const useGeolocation = (options: PositionOptions = geolocationStandardOptions): 
   const state = useGeolocationState(options)
   const events = useGeolocationEvents(options)
 
-  return [state, events]
+  return [state, events]   
 }
 
 export default useGeolocation
