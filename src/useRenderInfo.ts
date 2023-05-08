@@ -3,7 +3,7 @@ import { useRef } from 'react'
 export interface RenderInfo {
   readonly module: string;
   renders: number;
-  timestamp: number;
+  timestamp: number;    
   sinceLast: number | '[now]'
 }   
 
