@@ -5,7 +5,7 @@ export interface RenderInfo {
   renders: number;
   timestamp: number;
   sinceLast: number | '[now]'
-}
+}   
 
 const getInitial = (moduleName: string): RenderInfo => ({
   module: moduleName,
