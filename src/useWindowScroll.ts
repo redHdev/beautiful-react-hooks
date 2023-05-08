@@ -5,4 +5,4 @@ import useGlobalEvent from './useGlobalEvent'
  */
 const useWindowScroll = <T extends (event: Event) => void>(handler?: T) => useGlobalEvent('scroll', handler)
 
-export default useWindowScroll
+export default useWindowScroll   
